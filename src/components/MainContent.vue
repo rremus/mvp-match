@@ -405,6 +405,7 @@ export default {
                 this.projectTotals = this.gatewayOneTotal + this.gatewayTwoTotal
               }
             })
+
             if (this.projectLabels) {
               this.chartData.datasets[0].data.push(this.projectOneTotal, this.projectTwoTotal)
             } else if (this.gatewayLabels) {
